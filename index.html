@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saransh' Personal Blog</title>
+
+  <!-- css file link  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- custom fonts link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!-- header  -->
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <div class="btn-group">
+
+          <!-- theme button  -->
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <!-- menu button  -->
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <!-- navbar for desktop  -->
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="/about_me.html" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <!-- navbar for mobile  -->
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./about_me.html" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="./contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <!-- links for various topics  -->
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="https://www.python.org" class="nav-link">Python</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://www.mongodb.com" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="https://reactjs.org" class="nav-link">Web Development</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <!-- main section  -->
+  <main>
+
+    <!-- user section named as hero -->
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Saransh&nbsp;Singh</b>.
+            <br>Python Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in Python Programming and Web Development.
+          </p>
+
+          <div class="btn-group">
+            <a href="./about_me.html" class="btn btn-primary">About Me</a>
+            <a href="./contact.html" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/user.jpg" alt="Saransh Singh" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- the code for main section  -->
+    <div class="main">
+
+      <div class="container">
+
+        <!-- the blog section containing various blog posts  -->
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/react_image.png" alt="reactjs image here" width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Frontend Development</button>
+
+                <h3>
+                  <a href="https://www.reactjs.org" class="h3">
+                    Learning more about ReactJs and website development.
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  React is an open-source, frontend, JavaScript library for building user interfaces or UI components.
+                  It is maintained by facebook and it's community. It can be used as a base in the development of
+                  single-page applications.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="/about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-03-1">Mar 1, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">6 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/mongodb_image.png" alt="MongoDB image here" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a href="https://www.mongodb.com" class="h3">Use of MongoDB for management of project database.</a>
+                </h3>
+
+                <p class="blog-text">
+                  MongoDB is a cross platform database program based on NoSQL database language and uses JSON-like
+                  documents called BSON with optional schema. It is developed by MongoDB Inc.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh Singh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="./about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-02-20">Feb 20, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/datasecurity_image.png" alt="Data Security image" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Data Security</button>
+
+                <h3><a href="https://www.netwrix.com/data_security_policy_template.html" class="h3">Dynamically Securing
+                    Data</a></h3>
+
+                <p class="blog-text">
+                  Protecting the digital data such as those in a database, from destructive forces and fron the unwanted
+                  actions of unauthorized users, such as a cyber attack or data breach.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh Singh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="./about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-02-5">Feb 5, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/nodejs_image.png" alt="nodejs image here
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Node</button>
+
+                <h3><a href="https://node.org" class="h3">Backend Development with NodeJs</a></h3>
+
+                <p class="blog-text">
+                  Ever heard of asynchronous programming. This is what node uses to help the web server open a file on the server and return the content to the client.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh Singh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="./about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-25">Jan 25, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">8 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/response_image.png"
+                  alt="response image" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="" class="h3">Adaptive Loading - Improving Web Performance</a></h3>
+
+                <p class="blog-text">
+                  Adaptive Loading: Do not just respond based on screen size, adapt based on actual device hardware. Any user can have a slow experience.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh Singh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="./about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-9">Jan 9, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/accessibility.png"
+                  alt="accessibility image" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Accessibility</button>
+
+                <h3><a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility" class="h3">Don't Develop Just for Yourself</a>
+                </h3>
+
+                <p class="blog-text">
+                  We, as developers, tend to develop sites unconsciously for people like ourselves. If we don't actively
+                  pay attention,
+                  the sites are often accessible only for certain types of people: Sighted mouse-users, who have good
+                  fine motor skills
+                  and are good at using computers.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/user.jpg" alt="Saransh Singh" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="./about_me.html" class="h4">Saransh Singh</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-28">Dec 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- aside section code  -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="https://www.python.org" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="logo-python"></ion-icon>
+              </div>
+
+              <p>Python</p>
+            </a>
+
+            <a href="https://www.quackit.com/database/tutorial/" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="https://html.com" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="logo-html5"></ion-icon>
+              </div>
+
+              <p>Web Development</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#python</button>
+              <button class="hashtag">#flask</button>
+              <button class="hashtag">#webdevelopment</button>
+              <button class="hashtag">#javascript</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#mongodb</button>
+              <button class="hashtag">#machinelearning</button>
+              <button class="hashtag">#performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about the interesting things of python? Let's have a conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- footer  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <p class="footer-text">
+          Learn about Python Programming, Web Development, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="./contact.html">Bizarro</a>
+    </p>
+
+  </footer>
+
+  <!-- custom javascript link  -->
+
+  <script src="./assets/js/script.js"></script>
+
+  <!-- ion icons link file  -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
